@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+}
+body, html{
+    height: 100%;
+}
+.wrapper{
+    margin-top: 8rem !important;
+}
+.user-icon-container i{
+    font-size: 8rem !important;
+}
+.username-container h1{
+    font-size: 1.5rem !important;
+}
+.checkbox-container{
+    margin-top: 1rem !important;
+}
+.checkbox-title {
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.checkbox-description{
+    font-size: 0.5rem !important;
+}
+.text-container{
+    margin-top: 1rem !important;
+}
+.form-check{
+    margin-top: 1rem !important;
+}
+.form-check input{
+    border-radius: 0.3rem !important;
+}
+
+
