@@ -4,47 +4,20 @@
 }
 body, html{
     height: 100%;
-    
 }
 
+/* Header*/
 .header-container {
     background-color: #c8f4fc !important;
     height: 4.5rem !important;
-    
 }
+
 .header-container h1 {
     color: white;
     margin: 0;
     padding: 0;
     font-size: 24px;
     line-height: 1;
-    
-}
-
-.progress-container {
-    height: 7rem !important;
-    margin-top: 4.5rem !important;
-}
-
-.selection-container {
-    background-color: #90dcec !important;
-    height: 12rem !important;
-}
-
-.level-container {
-    height: 7rem !important;
-}
-
-.quote-container {
-    height: 3rem !important;
-}
-
-.nav-container {
-    background-color: #c8f4fc !important;
-    height: 3rem !important;
-}
-.nav-container i{
-    font-size: 1.5rem !important;
 }
 
 .clickables {
@@ -58,7 +31,6 @@ body, html{
     height: 50px;
     border-radius: 50%;
     overflow: hidden;
-
 }
 
 .profile-img {
@@ -79,44 +51,74 @@ body, html{
 .notification-icon:hover, .menu-icon:hover {
     opacity: 0.8;
 }
+
+/* Progress Container*/
+.progress-container {
+    height: 7rem !important;
+    margin-top: 4.5rem !important;
+}
+
 .progress {
     height: 0.5rem !important;
     border-radius: 0 !important;
     margin: 0 !important;
 }
+
 .point-text p{
     font-size: 12px !important;
     font-weight: 600 !important;
     color: black !important;
 }
+
 .point-text h6{
     font-size: 14px !important;
     font-weight: 600 !important;
     color: black !important;
 }
+
 .challenge-text h6{
     font-size: 14px !important;
     font-weight: 600 !important;
     color: black !important;
 }
+
 .challenge-text p{
     font-size: 12px !important;
     font-weight: 600 !important;
     color: black !important;
 }
+
+/* Selection Container*/
+.selection-container {
+    background-color: #90dcec !important;
+    height: 12rem !important;
+}
+
 .selector{
     height: 5rem !important;
 }
+
 .icon-wrapper{
     width: 4rem !important;
     height: 4rem !important;
     border-radius: 0.5rem !important;
 }
 
+/* Level Container*/
+.level-container {
+    height: 7rem !important;
+}
+
 .level-container .icon-container .icon-wrapper{
     width: 5rem !important;
     background-color: #c8f4fc !important;
 }
+
+/* Quote Container*/
+.quote-container {
+    height: 3rem !important;
+}
+
 .quote-container .quote-title{
     font-size: 1.5rem !important;
     font-weight: 600 !important;
@@ -128,13 +130,31 @@ body, html{
     font-weight: 600 !important;
     color: black !important;
 }
+
+/* Navigation Container*/
+.nav-container {
+    background-color: #c8f4fc !important;
+    height: 3rem !important;
+    z-index: 1000 !important;
+}
+
+.nav-container i{
+    font-size: 1.5rem !important;
+}
+
 .user-wrapper{
     width: 2.2rem !important;
     height: 2.2rem !important;
     border-radius: 50%;
     border: 2px solid black;
 }
+
 .home-button{
     border-bottom: 5px solid black;
+}
+
+/* Scroll Container*/
+.scroll-container {
+    padding-bottom: 3rem !important;
 }
 
