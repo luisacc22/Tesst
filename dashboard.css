@@ -1,0 +1,140 @@
+*{
+    margin:0 !important;
+    padding:0 !important;
+}
+body, html{
+    height: 100%;
+    
+}
+
+.header-container {
+    background-color: #c8f4fc !important;
+    height: 4.5rem !important;
+    
+}
+.header-container h1 {
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    line-height: 1;
+    
+}
+
+.progress-container {
+    height: 7rem !important;
+    margin-top: 4.5rem !important;
+}
+
+.selection-container {
+    background-color: #90dcec !important;
+    height: 12rem !important;
+}
+
+.level-container {
+    height: 7rem !important;
+}
+
+.quote-container {
+    height: 3rem !important;
+}
+
+.nav-container {
+    background-color: #c8f4fc !important;
+    height: 3rem !important;
+}
+.nav-container i{
+    font-size: 1.5rem !important;
+}
+
+.clickables {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-img-container {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+
+.profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.notification-icon, .menu-icon {
+    color: black;
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notification-icon:hover, .menu-icon:hover {
+    opacity: 0.8;
+}
+.progress {
+    height: 0.5rem !important;
+    border-radius: 0 !important;
+    margin: 0 !important;
+}
+.point-text p{
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    color: black !important;
+}
+.point-text h6{
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    color: black !important;
+}
+.challenge-text h6{
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    color: black !important;
+}
+.challenge-text p{
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    color: black !important;
+}
+.selector{
+    height: 5rem !important;
+}
+.icon-wrapper{
+    width: 4rem !important;
+    height: 4rem !important;
+    border-radius: 0.5rem !important;
+}
+
+.level-container .icon-container .icon-wrapper{
+    width: 5rem !important;
+    background-color: #c8f4fc !important;
+}
+.quote-container .quote-title{
+    font-size: 1.5rem !important;
+    font-weight: 600 !important;
+    color: black !important;
+}
+
+.quote-container .quote-author{
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    color: black !important;
+}
+.user-wrapper{
+    width: 2.2rem !important;
+    height: 2.2rem !important;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.home-button{
+    border-bottom: 5px solid black;
+}
+

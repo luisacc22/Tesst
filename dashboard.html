@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="dashboard.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row header-container align-items-center fixed-top p-3 py-2" >
+                <div class="col-2 px-0 d-flex justify-content-center align-items-center">
+                    <div class="profile-img-container">
+                        <img src="../Assets/Logo/VitalCore Logo.png" alt="Profile" class="profile-img">
+                    </div>
+                </div>
+                <div class="col-6 ps-2 text-container">
+                    <h6 class="mb-0">Username</h6>
+                    <p class="mb-0">Beginner</p>
+                </div>
+                <div class="col-4 d-flex justify-content-end align-items-center">
+                    <div class="clickables">
+                        <div class="notification-icon">
+                            <i class="fas fa-bell"></i>
+                        </div>
+                        <div class="menu-icon">
+                            <i class="fas fa-bars"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row progress-container d-flex justify-content-center align-items-center">
+
+                <div class="point-progress-wrapper">
+                    <div class="px-2 row point-text">
+                        <h6 class="col-4">Points</h3>
+                        <p class="col-4"><span>50</span>/1000</p>
+                    </div>
+                    <div class="col-6 progress p-0 mx-2 point-progress">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+               
+                <div class="challenge-progress-wrapper">
+                    <div class="px-2 row challenge-text">
+                        <h6 class="col-4">Challenge</h3>
+                        <p class="col-4"><span>50</span>/1000</p>
+                    </div>
+                    <div class="col-6 progress p-0 mx-2 challenge-progress">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row scroll-container">
+                
+                <div class="row selection-container gap-3 d-flex align-items-center justify-content-start mb-2">
+                    <div class="icon-container col-3 selector bmi-calculator-container d-flex align-items-center justify-content-center ms-4">
+                        <div class="icon-wrapper d-flex justify-content-center align-items-center bg-white">
+                            <img src="../Assets/icons/bmi.svg" alt="BMI Calculator" class="w-75 h-75">
+                        </div>
+                    </div>
+                    <div class="icon-container col-3 selector achievement-container d-flex align-items-center justify-content-center">
+                        <div class="icon-wrapper d-flex justify-content-center align-items-center bg-white">
+                            <img src="../Assets/icons/achievement.svg" alt="Achievement" class="w-75 h-75">
+                        </div>
+                    </div>
+                    <div class="icon-container col-3 selector calendar-container d-flex align-items-center justify-content-center">
+                        <div class="icon-wrapper d-flex justify-content-center align-items-center bg-white">
+                            <img src="../Assets/icons/calendar.svg" alt="Calendar" class="w-75 h-75">
+                        </div>
+                    </div>
+                    <div class="icon-container col-3 selector chat-container d-flex align-items-center justify-content-center ms-4">
+                        <div class="icon-wrapper d-flex justify-content-center align-items-center bg-white">
+                            <img src="../Assets/icons/chat.svg" alt="Chat" class="w-75 h-75">
+                        </div>
+                    </div>
+                    <div class="icon-container col-3 selector water-container d-flex align-items-center justify-content-center">
+                        <div class="icon-wrapper d-flex justify-content-center align-items-center bg-white">
+                            <img src="../Assets/icons/water.svg" alt="Water" class="w-75 h-75">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row level-container d-flex justify-content-between align-items-center mb-2">
+                    <div class="icon-container col-4 d-flex justify-content-center align-items-center">
+                        <div class="icon-wrapper d-flex justify-content-center align-items-center bg-white">
+                            <img src="../Assets/icons/chat.svg" alt="Chat" class="w-75 h-75">
+                        </div>
+                    </div>
+                    <div class="icon-container col-4 d-flex justify-content-center align-items-center">
+                        <div class="icon-wrapper d-flex justify-content-center align-items-center bg-white">
+                            <img src="../Assets/icons/chat.svg" alt="Chat" class="w-75 h-75">
+                        </div>
+
+                    </div>
+                    <div class="icon-container col-4 d-flex justify-content-center align-items-center">
+                        <div class="icon-wrapper d-flex justify-content-center align-items-center bg-white">
+                            <img src="../Assets/icons/chat.svg" alt="Chat" class="w-75 h-75">
+                        </div>
+                    </div>
+                    <div class="col-4  d-flex justify-content-center align-items-center">
+                        <p>Beginner</p>
+                    </div>
+                    <div class="col-4 d-flex justify-content-center align-items-center">
+                        <p>Intermediate</p>
+                    </div>
+                    <div class="col-4 d-flex justify-content-center align-items-center">
+                        <p>Expert</p>
+                    </div>
+                </div>
+
+                <div class="quote-container">
+                    <div class="col-12 quote-title text-center">
+                        <h6>"NO PAIN NO GAIN"</h6>
+                    </div>
+                    <div class="col-12 quote-author text-center">
+                        <p>by Anonymous</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row nav-container">
+                <div class="settings-button col-4 d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-gear"></i>
+                </div>
+                <div class="home-button col-4 d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-house"></i>
+                </div>
+                <div class="user-button col-4 d-flex justify-content-center align-items-center">
+                    <div class="user-wrapper d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </body>
+</html>
