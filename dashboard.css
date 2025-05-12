@@ -87,6 +87,17 @@ body, html{
     font-weight: 600 !important;
     color: black !important;
 }
+.progress-container .current-selectors{
+    display: none;
+}
+.current-selectors .icon-wrapper{
+    background-color: #90dcec !important;
+}   
+
+/* Main Content*/
+.main-content{
+    
+}
 
 /* Selection Container*/
 .selection-container {
@@ -158,3 +169,249 @@ body, html{
     padding-bottom: 3rem !important;
 }
 
+/* BMI Calculator Content*/
+.bmi-content{
+    display: none;
+    padding: 1rem;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.bmi-calculator-container {
+    background-color:#90dcec;
+    padding: 1rem;
+}
+
+.bmi-title h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.bmi-inputs {
+    max-width: 400px;
+    margin: 0 auto;
+}
+.bmi-inputs .input-group span{
+    font-size: 1rem !important;
+}
+.bmi-inputs .input-group input{
+    font-size: 0.8rem !important;
+}
+
+.input-group {
+    width: 100%;
+}
+
+.bmi-result {
+    width: 100%;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.bmi-result h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+#calculateBMI {
+    width: 75%;
+    height: 2rem !important;
+    margin-top: 1rem;
+    background-color: white !important;
+}
+#calculateBMI:hover{
+    background-color: rgb(224, 222, 222) !important;
+}
+.back-button-container i{
+   font-size: 1.5rem !important;
+}
+
+/* Achievement Content*/
+.achievement-content{
+    display: none;
+}
+
+.achievement-list ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+#achievement-icon{
+    font-size: 2rem !important;
+}
+
+/* Calendar Content*/
+.calendar-content{
+    display: none;
+    padding: 1rem;
+}
+
+.calendar-container {
+    background-color: #90dcec;
+    padding: 1rem;
+}
+
+.calendar-title h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.calendar-table {
+    background-color: white;
+    border-radius: 5px;
+    padding: 0.5rem;
+    overflow-x: auto;
+    width: 100%;
+}
+
+.calendar-table table {
+    margin-bottom: 0;
+    min-width: 100%;
+    table-layout: fixed;
+}
+
+.calendar-table th {
+    text-align: center;
+    font-weight: 600;
+    background-color: #f8f9fa;
+    font-size: 0.7rem;
+    padding: 0.3rem !important;
+    white-space: nowrap;
+}
+
+.calendar-table td {
+    text-align: center;
+    vertical-align: middle;
+    height: auto;
+    min-height: 40px;
+    font-size: 0.6rem;
+    padding: 0.2rem !important;
+    word-wrap: break-word;
+}
+
+/* Style for the week number column */
+.calendar-table th:first-child,
+.calendar-table td:first-child {
+    width: 10%;
+    font-weight: bold;
+    background-color: #e9ecef;
+}
+
+@media (max-width: 576px) {
+    .calendar-table {
+        padding: 0.3rem;
+    }
+    
+    .calendar-table th {
+        font-size: 0.6rem;
+    }
+    
+    .calendar-table td {
+        font-size: 0.55rem;
+        min-height: 35px;
+    }
+}
+
+/* Water Content */
+.water-content {
+    display: none;
+    padding: 1rem;
+}
+.water-title h1 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #222;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+.water-progress {
+    margin-bottom: 1.2rem;
+}
+#waterGoalLabel {
+    font-weight: 500;
+}
+#waterProgressBar {
+    transition: width 0.3s;
+    background: #7ecbff !important;
+}
+.water-buttons .btn {
+    background: #fff;
+    border: 1.5px solid #d1d1d1;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #444;
+    margin-bottom: 0.5rem;
+    box-shadow: none;
+}
+.water-buttons .btn:active, .water-buttons .btn:focus {
+    background: #e6f4ff;
+    border-color: #7ecbff;
+    color: #222;
+}
+.water-schedule-row {
+    background: #fff;
+    border-radius: 8px;
+    margin-bottom: 0.2rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.water-schedule-row .edit-icon {
+    color: #a48be0;
+    font-size: 1.2rem;
+    margin-right: 0.7rem;
+}
+.water-schedule-row .water-time {
+    font-size: 1.1rem;
+    font-weight: 500;
+    flex: 1;
+    text-align: left;
+}
+.water-schedule-row .water-check {
+    margin-left: 0.7rem;
+}
+.water-schedule-row .form-check-input[type="checkbox"] {
+    width: 1.3em;
+    height: 1.3em;
+    border-radius: 50%;
+    border: 2px solid #bbb;
+    background: #fff;
+    margin: 0;
+    box-shadow: none;
+    accent-color: #a48be0;
+}
+
+@media (max-width: 576px) {
+    .water-content {
+        padding: 0.5rem;
+    }
+    .water-title h1 {
+        font-size: 1.1rem;
+    }
+    .water-buttons .btn {
+        font-size: 0.95rem;
+        padding: 0.4rem 0.2rem;
+    }
+    .water-schedule-row .water-time {
+        font-size: 0.95rem;
+    }
+    .water-schedule-row .edit-icon {
+        font-size: 1rem;
+    }
+    .water-schedule-row .form-check-input[type="checkbox"] {
+        width: 1.1em;
+        height: 1.1em;
+    }
+}
